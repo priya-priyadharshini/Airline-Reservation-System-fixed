@@ -1,0 +1,2 @@
+-- Tables are auto-created by Hibernate using spring.jpa.hibernate.ddl-auto=update.
+-- H2 database is stored in ./data/airline_db.

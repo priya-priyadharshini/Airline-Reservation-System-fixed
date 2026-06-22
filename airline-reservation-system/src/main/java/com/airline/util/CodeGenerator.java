@@ -1,0 +1,2 @@
+package com.airline.util; import java.time.LocalDateTime; import java.time.format.DateTimeFormatter; import java.util.concurrent.ThreadLocalRandom;
+public class CodeGenerator{ public static String pnr(){return "PNR"+LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyMMddHHmmss"))+ThreadLocalRandom.current().nextInt(100,999);} public static String ticket(){return "TKT"+System.currentTimeMillis();}}
